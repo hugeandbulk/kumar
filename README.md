@@ -12,6 +12,10 @@ Unicode in the 16-bit UTF-16 form has no prescribed endian orientation for inter
 
 https://www.ibm.com/docs/en/psfa/7.2.1?topic=formats-byte-order-mark
 
+What is object used for?
+
+An object is an abstract data type with the addition of polymorphism and inheritance. Rather than structure programs as code and data, an object-oriented system integrates the two using the concept of an "object".
+
 What are objects in CSS?
 
 The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript. It is much like the DOM, but for the CSS rather than the HTML. It allows users to read and modify CSS style dynamically. The values of CSS are represented untyped, that is using String objects.
