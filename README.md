@@ -1,5 +1,9 @@
 # kumar
 
+What is the full form of Unicode?
+
+The full form of Unicode is Universal Character Encoding Standard. Unicode is a character encoding standard that is designed to represent all characters used in written language worldwide.
+
 UTF-8 is an encoding system for Unicode. It can translate any Unicode character to a matching unique binary string, and can also translate the binary string back to a Unicode character. This is the meaning of “UTF”, or “Unicode Transformation Format.”
 
 What UTF-8 means?
