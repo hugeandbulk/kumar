@@ -1,5 +1,9 @@
 # kumar
 
+Is UTF-8 a single byte?
+
+UTF-8 uses one byte to represent code points from 0-127. These first 128 Unicode code points correspond one-to-one with ASCII character mappings, so ASCII characters are also valid UTF-8 characters.
+
 What is called encoding?
 
 In computers, encoding is the process of putting a sequence of characters (letters, numbers, punctuation, and certain symbols) into a specialized format for efficient transmission or storage.
