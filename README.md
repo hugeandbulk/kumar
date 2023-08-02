@@ -1,5 +1,17 @@
 # kumar
 
+Is 0 valid UTF-8?
+
+Yes, the zero byte in UTF8 is code point 0, NUL. There is no other Unicode code point that will be encoded in UTF8 with a zero byte anywhere within it. You can see that all the non-zero ASCII characters are represented as themselves while all mutibyte sequences have a high bit of 1 in all their bytes.
+
+What problem does UTF-8 solve?
+
+UTF-8 is a way of encoding Unicode so that an ASCII text file encodes to itself. No wasted space, beyond the initial bit of every byte ASCII doesn't use. And if your file is mostly ASCII text with a few non-ASCII characters sprinkled in, the non-ASCII characters just make your file a little longer.
+
+What is the rule of UTF-8?
+
+A valid UTF-8 character can be 1 - 4 bytes long. For a 1-byte character, the first bit is a 0 , followed by its unicode. For an n-bytes character, the first n-bits are all ones, the n+1 bit is 0, followed by n-1 bytes with most significant 2 bits being 10 .
+
 How is UTF-8 calculated?
 
 A character in UTF-8 encoding takes from 1 to 4 bytes. The first byte uses one to five most significant bits 2 to indicate the number of bytes to follow: 0 - 1-byte symbol from ASCII table, e.g. Dollar sign. 110 - 2-byte symbol, e.g. Pound sign.
