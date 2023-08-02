@@ -43,7 +43,9 @@ The object-position CSS property specifies the alignment of the selected replace
 How to remove an object in CSS?
 display: none; 'Unlike the visibility property, which leaves an element in normal document flow,display: none removes the element completely from the document. It does not take up any space, even though the HTML for it is still in the source code. This is because it is, indeed, removed from the document flow.
 
+What is object-fit in CSS?
 
+The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container. This property tells the content to fill the container in a variety of ways; such as "preserve that aspect ratio" or "stretch up and take up as much space as possible".
 
 
 
