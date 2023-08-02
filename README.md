@@ -51,3 +51,8 @@ The DOM contains all the information about the relationships of the HTML element
 What is object a class?
 
 an object is an element (or instance) of a class; objects have the behaviors of their class. The object is the actual component of programs, while the class specifies how instances are created and how they behave. method: a method is an action which an object is able to perform. sending a message.
+
+What is object name in HTML?
+
+The HTML <object> name Attribute is used to specify the name of the embedded file. This attribute is also used as a reference for an object element in the Javascript. Syntax: <object name="name">
+
