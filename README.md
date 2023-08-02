@@ -10,6 +10,18 @@ Why UTF-8 is used in HTML?
 
 Introduction to UTF-8 in HTML. UTF-8 is defined as the default character encoding for HTML5 used to display an HTML page perfectly. It encourages web developers to use UTF-8 as it covers all the characters and symbols in the entity that uses one byte and works well in all the browsers.
 
+What is difference between UTF-8 and ASCII?
+
+UTF-8 encodes Unicode characters into a sequence of 8-bit bytes. The standard has a capacity for over a million distinct codepoints and is a superset of all characters in widespread use today. By comparison, ASCII (American Standard Code for Information Interchange) includes 128 character codes.
+
+What is the benefit of UTF-8?
+
+UTF-8 has several advantages over other encodings, such as ISO-8859-1, Windows-1252, or GB2312. First, UTF-8 is compatible with ASCII, which means that any text that is encoded in ASCII can also be read as UTF-8 without any conversion or loss of information.
+
+Why is UTF-8 the best?
+
+The best practice for choosing a character encoding is to use UTF-8, the universal and standard encoding for the web. UTF-8 can represent any character in any language or script, and it is compatible with ASCII. It also has several advantages over other encodings, such as being more efficient, secure, and flexible.
+
 Does UTF-8 have a BOM?
 
 The UTF-8 BOM is a sequence of bytes at the start of a text stream ( 0xEF, 0xBB, 0xBF ) that allows the reader to more reliably guess a file as being encoded in UTF-8. Normally, the BOM is used to signal the endianness of an encoding, but since endianness is irrelevant to UTF-8, the BOM is unnecessary.
