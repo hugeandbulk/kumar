@@ -1,6 +1,9 @@
 ## kumar
 ———————-—
 
+### UTF
+Unicode Transformation Format (UTF), also called as UCS Transformation Format (ISO/IEC 10646 standard) is a standard variable-width encoding that can represent every character in the Unicode Character Set (UCS).
+
 Is Unicode same as ASCII?
 
 UNICODE is a superset of ASCII. ASCII supports only 128 characters using 7-bit encoding scheme. It contains codes representing English characters, digits, and standard special symbols. UNICODE supports a wide range of characters.
