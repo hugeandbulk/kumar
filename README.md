@@ -26,6 +26,10 @@ Why is UTF-8 the best?
 
 The best practice for choosing a character encoding is to use UTF-8, the universal and standard encoding for the web. UTF-8 can represent any character in any language or script, and it is compatible with ASCII. It also has several advantages over other encodings, such as being more efficient, secure, and flexible.
 
+Where is UTF-8 used in HTML?
+
+It needs to be inside the <head> element and within the first 1024 bytes of the HTML, as some browsers only look at those bytes before choosing an encoding. Moreover, it is recommended that the meta tag be the first thing in the <head> .
+
 Does UTF-8 have a BOM?
 
 The UTF-8 BOM is a sequence of bytes at the start of a text stream ( 0xEF, 0xBB, 0xBF ) that allows the reader to more reliably guess a file as being encoded in UTF-8. Normally, the BOM is used to signal the endianness of an encoding, but since endianness is irrelevant to UTF-8, the BOM is unnecessary.
