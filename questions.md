@@ -1,3 +1,11 @@
+Can I convert UTF-8 to UTF-16?
+
+You can also explicitly convert UTF-8 data to UTF-16 data by using the NATIONAL-OF intrinsic function. When using the DISPLAY-OF intrinsic function to convert UTF-16 to UTF-8, you must specify an output code page of 1208.
+
+https://www.ibm.com/docs/en/cobol-zos/6.4?topic=cobol-converting-from-utf-8-unicode-representation
+
+
+
 How to convert CSV file into UTF-8 in Python?
 
 If you write a CSV file using Python's standard file handling operations such as open() and file. write(), Python will automatically create a UTF-8 file.
