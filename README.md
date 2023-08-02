@@ -9,3 +9,6 @@ What is BOM code in UTF-16?
 U+FEFF
 
 Unicode in the 16-bit UTF-16 form has no prescribed endian orientation for interchange. This requires communication processes to evaluate the endian orientation correctly. To aid in this, the character U+FEFF ZERO WIDTH NO-BREAK SPACE can be used as a Byte Order Mark (BOM).
+
+https://www.ibm.com/docs/en/psfa/7.2.1?topic=formats-byte-order-mark
+
