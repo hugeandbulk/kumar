@@ -6,6 +6,10 @@ What UTF-8 means?
 
 UTF-8 is an encoding system for Unicode. It can translate any Unicode character to a matching unique binary string, and can also translate the binary string back to a Unicode character. This is the meaning of “UTF”, or “Unicode Transformation Format.”
 
+Why UTF-8 is used in HTML?
+
+Introduction to UTF-8 in HTML. UTF-8 is defined as the default character encoding for HTML5 used to display an HTML page perfectly. It encourages web developers to use UTF-8 as it covers all the characters and symbols in the entity that uses one byte and works well in all the browsers.
+
 Does UTF-8 have a BOM?
 
 The UTF-8 BOM is a sequence of bytes at the start of a text stream ( 0xEF, 0xBB, 0xBF ) that allows the reader to more reliably guess a file as being encoded in UTF-8. Normally, the BOM is used to signal the endianness of an encoding, but since endianness is irrelevant to UTF-8, the BOM is unnecessary.
