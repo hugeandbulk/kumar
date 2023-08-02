@@ -1,4 +1,9 @@
-# kumar
+## kumar
+———————-—
+
+Is Unicode same as ASCII?
+
+UNICODE is a superset of ASCII. ASCII supports only 128 characters using 7-bit encoding scheme. It contains codes representing English characters, digits, and standard special symbols. UNICODE supports a wide range of characters.
 
 What are the three types of encoding?
 
