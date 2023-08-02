@@ -19,3 +19,27 @@ The CSS Object Model is a set of APIs allowing the manipulation of CSS from Java
 What is a style object?
 
 The Style object includes style attributes (such as font, font style, and paragraph spacing) as properties of the Style object. The Style object is a member of the Styles collection. The Styles collection includes all the styles in the specified document.
+
+What is an object in web design?
+
+An object is a collection of related data and/or functionality. These usually consist of several variables and functions (which are called properties and methods when they are inside objects).
+
+What are objects in HTML?
+
+The <object> tag defines a container for an external resource. The external resource can be a web page, a picture, a media player, or a plug-in application. To embed a picture, it is better to use the <img> tag.
+
+What are the 3 types of styles?
+
+There are three ways you can use to implement CSS into your HTML: internal, external, and inline styles.
+
+Why is class called an object?
+
+A class can create objects of itself with different characteristics and common behaviour just like a factory can produce similar items based on a particular design. Hence, class is also referred to as 'Object Factory'.
+
+What is CSS object-position?
+
+The object-position CSS property specifies the alignment of the selected replaced element's contents within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.
+
+What is the difference between DOM and Cssom?
+
+The DOM contains all the information about the relationships of the HTML element of the page, while the CSSOM contains the information about how to style the elements. The Render Tree contains information about all visible DOM content on the page and all necessary CSSOM information for the different nodes.
