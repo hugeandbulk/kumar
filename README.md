@@ -1,5 +1,9 @@
 # kumar
 
+What are the three types of encoding?
+
+There are three main areas of encoding memory that make the journey possible: visual encoding, acoustic encoding and semantic encoding. It is interesting to know that tactile encoding, or learning by touch, also exists but is not always applicable.
+
 Is 0 valid UTF-8?
 
 Yes, the zero byte in UTF8 is code point 0, NUL. There is no other Unicode code point that will be encoded in UTF8 with a zero byte anywhere within it. You can see that all the non-zero ASCII characters are represented as themselves while all mutibyte sequences have a high bit of 1 in all their bytes.
