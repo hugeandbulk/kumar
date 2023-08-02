@@ -4,7 +4,9 @@ You can also explicitly convert UTF-8 data to UTF-16 data by using the NATIONAL-
 
 https://www.ibm.com/docs/en/cobol-zos/6.4?topic=cobol-converting-from-utf-8-unicode-representation
 
+Why use UTF-16 instead of UTF-8?
 
+Store the data in the format that requires the least space for your data. UTF-16 does not always require more storage than UTF-8. The amount of storage that is required depends on your data. For example, Latin-1 characters always take 1 byte in UTF-8 and 2 bytes in UTF-16.
 
 How to convert CSV file into UTF-8 in Python?
 
