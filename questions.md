@@ -8,6 +8,17 @@ Why use UTF-16 instead of UTF-8?
 
 Store the data in the format that requires the least space for your data. UTF-16 does not always require more storage than UTF-8. The amount of storage that is required depends on your data. For example, Latin-1 characters always take 1 byte in UTF-8 and 2 bytes in UTF-16.
 
+Is UTF-16 better than UTF-8?
+
+UTF-8 encoding is preferable to UTF-16 on the majority of websites, because it uses less memory. Recall that UTF-8 encodes each ASCII character in just one byte. UTF-16 must encode these same characters in either two or four bytes.
+
+
+
+
+
+
+
+
 How to convert CSV file into UTF-8 in Python?
 
 If you write a CSV file using Python's standard file handling operations such as open() and file. write(), Python will automatically create a UTF-8 file.
