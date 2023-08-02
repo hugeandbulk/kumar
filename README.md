@@ -36,7 +36,27 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
 
 Why use charset UTF-8 in CSS?
 
-It tells the browser to read the css file as UTF-8. This is handy if your CSS contains unicode characters and not only ASCII. Using it in the meta tag is fine, but only for pages that include that meta tag. Read about the rules for character set resolution of CSS files at the w3c spec for CSS 2.26
+It tells the browser to read the css file as UTF-8. This is handy if your CSS contains unicode characters and not only ASCII. Using it in the meta tag is fine, but only for pages that include that meta tag. Read about the rules for character set resolution of CSS files at the w3c spec for CSS 2.
+
+Is emoji UTF-8?
+
+Emojis look like images, or icons, but they are not. They are letters (characters) from the UTF-8 (Unicode) character set. UTF-8 covers almost all of the characters and symbols in the world.
+
+How many characters are in UTF-8?
+
+UTF-8 is capable of encoding all 1,112,064 valid character code points in Unicode using one to four one-byte (8-bit) code units. Code points with lower numerical values, which tend to occur more frequently, are encoded using fewer bytes.
+
+How many bytes is UTF-8?
+
+For example, UTF-8 is based on 8-bit code units. Therefore, each character can be 8 bits (1 byte), 16 bits (2 bytes), 24 bits (3 bytes), or 32 bits (4 bytes). Likewise, UTF-16 is based on 16-bit code units. Therefore, each character can be 16 bits (2 bytes) or 32 bits (4 bytes).
+
+Why UTF-8 replace ASCII?
+
+UTF-8 replaced the ASCII character-encoding standard because it can store a character in more than a single byte. This allowed us to represent a lot more character types, like emoji.
+
+What are the disadvantages of using UTF-8?
+
+Each continuation byte carries 6 bits of data. UTF-8 has one unfortunate disadvantage, that many 16-bit characters are encoded in 3 bytes. This disadvantage is more than offset by its advantages, and by having a single, simple encoding that can work in all languages and contexts.
 
 Does UTF-8 have a BOM?
 
