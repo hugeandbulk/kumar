@@ -47,3 +47,7 @@ The object-position CSS property specifies the alignment of the selected replace
 What is the difference between DOM and Cssom?
 
 The DOM contains all the information about the relationships of the HTML element of the page, while the CSSOM contains the information about how to style the elements. The Render Tree contains information about all visible DOM content on the page and all necessary CSSOM information for the different nodes.
+
+What is object a class?
+
+an object is an element (or instance) of a class; objects have the behaviors of their class. The object is the actual component of programs, while the class specifies how instances are created and how they behave. method: a method is an action which an object is able to perform. sending a message.
