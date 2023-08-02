@@ -1,5 +1,17 @@
 # kumar
 
+How many types of encoding are there?
+
+The four primary types of encoding are visual, acoustic, elaborative, and semantic. Encoding of memories in the brain can be optimized in a variety of ways, including mnemonics, chunking, and state-dependent learning.
+
+What language is Unicode?
+
+The simplest answer is that Unicode covers all of the languages that can be written in the following widely-used scripts: Latin, Greek, Cyrillic, Armenian, Hebrew, Arabic, Syriac, Thaana, Devanagari, Bengali, Gurmukhi, Oriya, Tamil, Telugu, Kannada, Malayalam, Sinhala, Thai, Lao, Tibetan, Myanmar, Georgian, Hangul, ...
+
+Why is it called Unicode?
+
+He explained that "the name 'Unicode' is intended to suggest a unique, unified, universal encoding". In this document, entitled Unicode 88, Becker outlined a 16-bit character model: Unicode is intended to address the need for a workable, reliable world text encoding.
+
 Which encoding is best?
 
 Binary Encoding: Initially, categories are encoded as Integer and then converted into binary code, then the digits from that binary string are placed into separate columns. This method is quite preferable when there is more categories.
