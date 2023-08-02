@@ -1,5 +1,9 @@
 # kumar
 
+How is UTF-8 calculated?
+
+A character in UTF-8 encoding takes from 1 to 4 bytes. The first byte uses one to five most significant bits 2 to indicate the number of bytes to follow: 0 - 1-byte symbol from ASCII table, e.g. Dollar sign. 110 - 2-byte symbol, e.g. Pound sign.
+
 Is UTF-8 a single byte?
 
 UTF-8 uses one byte to represent code points from 0-127. These first 128 Unicode code points correspond one-to-one with ASCII character mappings, so ASCII characters are also valid UTF-8 characters.
