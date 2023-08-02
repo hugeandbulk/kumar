@@ -62,6 +62,16 @@ Does UTF-8 have a BOM?
 
 The UTF-8 BOM is a sequence of bytes at the start of a text stream ( 0xEF, 0xBB, 0xBF ) that allows the reader to more reliably guess a file as being encoded in UTF-8. Normally, the BOM is used to signal the endianness of an encoding, but since endianness is irrelevant to UTF-8, the BOM is unnecessary.
 
+Where is UTF used?
+
+UTF-16 is used in major operating systems and environments, like Microsoft Windows, Java and .NET. Tip: The first 128 characters of Unicode (which correspond one-to-one with ASCII) are encoded using a single octet with the same binary value as ASCII, making valid ASCII text valid UTF-8-encoded Unicode as well.
+
+What is the most used UTF?
+
+UTF-8
+
+UTF-8 has been the most common encoding for the World Wide Web since 2008.
+
 What is BOM code in UTF-16?
 
 U+FEFF
