@@ -16,4 +16,6 @@ What are objects in CSS?
 
 The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript. It is much like the DOM, but for the CSS rather than the HTML. It allows users to read and modify CSS style dynamically. The values of CSS are represented untyped, that is using String objects.
 
+What is a style object?
 
+The Style object includes style attributes (such as font, font style, and paragraph spacing) as properties of the Style object. The Style object is a member of the Styles collection. The Styles collection includes all the styles in the specified document.
