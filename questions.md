@@ -4,7 +4,14 @@ If you write a CSV file using Python's standard file handling operations such as
 
 https://pypi.org/project/convert2utf/1.0.0/
 
-Byte order mark
+Using Iconv to Convert From UTF-16LE to UTF-8
+
+https://www.baeldung.com/linux/iconv-convert-from-utf-16le-to-utf-8
+
+
+
+
+### Byte order mark
 
 The byte order mark (BOM) is a particular usage of the special Unicode character, U+FEFF ZERO WIDTH NO-BREAK SPACE, whose appearance as a magic number at the start of a text stream can signal several things to a program reading the text:
 
