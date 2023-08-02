@@ -47,7 +47,9 @@ What is object-fit in CSS?
 
 The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container. This property tells the content to fill the container in a variety of ways; such as "preserve that aspect ratio" or "stretch up and take up as much space as possible".
 
+What is the difference between object-fit and object-position?
 
+The object-fit CSS property is used to specify how an or should be resized to fit its container and the object-position css property is used together with object-fit to specify how an or should be positioned with x/y coordinates inside its “own content box”.
 
 
 
