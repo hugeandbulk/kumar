@@ -51,7 +51,9 @@ What is the difference between object-fit and object-position?
 
 The object-fit CSS property is used to specify how an or should be resized to fit its container and the object-position css property is used together with object-fit to specify how an or should be positioned with x/y coordinates inside its “own content box”.
 
+How do I auto fit-content in CSS?
 
+Using the fit-content value, the width of a div element can be set to fit its content. The fit-content CSS property sets the width of an element to the minimum width of its content and allows the element to expand based on its parent container's width.
 
 
 
