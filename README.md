@@ -56,3 +56,7 @@ What is object name in HTML?
 
 The HTML <object> name Attribute is used to specify the name of the embedded file. This attribute is also used as a reference for an object element in the Javascript. Syntax: <object name="name">
 
+What is CSS rule?
+
+A CSS rule consists of a CSS selector and a set of CSS properties. The CSS selector determines what HTML elements to target with the CSS rule. The CSS properties specifies what to style of the targeted HTML elements. Here is a CSS rule example: div { border : 1px solid black; font-size : 18px; }
+
