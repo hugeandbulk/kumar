@@ -1,5 +1,9 @@
 # kumar
 
+What is called encoding?
+
+In computers, encoding is the process of putting a sequence of characters (letters, numbers, punctuation, and certain symbols) into a specialized format for efficient transmission or storage.
+
 Is UTF-8 encoding?
 
 Encoding is the process of transforming a set of Unicode characters into a sequence of bytes. Decoding is the process of transforming a sequence of encoded bytes into a set of Unicode characters. UTF-8 is a Unicode encoding that represents each code point as a sequence of one to four bytes.
