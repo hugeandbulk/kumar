@@ -34,6 +34,10 @@ What encoding is HTML?
 
 The HTML5 specification encourages web developers to use the UTF-8 character set! This has not always been the case. The character encoding for the early web was ASCII. Later, from HTML 2.0 to HTML 4.01, ISO-8859-1 was considered as the standard character set.
 
+Why use charset UTF-8 in CSS?
+
+It tells the browser to read the css file as UTF-8. This is handy if your CSS contains unicode characters and not only ASCII. Using it in the meta tag is fine, but only for pages that include that meta tag. Read about the rules for character set resolution of CSS files at the w3c spec for CSS 2.26
+
 Does UTF-8 have a BOM?
 
 The UTF-8 BOM is a sequence of bytes at the start of a text stream ( 0xEF, 0xBB, 0xBF ) that allows the reader to more reliably guess a file as being encoded in UTF-8. Normally, the BOM is used to signal the endianness of an encoding, but since endianness is irrelevant to UTF-8, the BOM is unnecessary.
