@@ -1,3 +1,7 @@
+How to validate UTF-8?
+
+https://www.geeksforgeeks.org/utf-8-validation-in-java/
+
 Can I convert UTF-8 to UTF-16?
 
 You can also explicitly convert UTF-8 data to UTF-16 data by using the NATIONAL-OF intrinsic function. When using the DISPLAY-OF intrinsic function to convert UTF-16 to UTF-8, you must specify an output code page of 1208.
