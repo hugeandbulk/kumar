@@ -30,6 +30,10 @@ Where is UTF-8 used in HTML?
 
 It needs to be inside the <head> element and within the first 1024 bytes of the HTML, as some browsers only look at those bytes before choosing an encoding. Moreover, it is recommended that the meta tag be the first thing in the <head> .
 
+What encoding is HTML?
+
+The HTML5 specification encourages web developers to use the UTF-8 character set! This has not always been the case. The character encoding for the early web was ASCII. Later, from HTML 2.0 to HTML 4.01, ISO-8859-1 was considered as the standard character set.
+
 Does UTF-8 have a BOM?
 
 The UTF-8 BOM is a sequence of bytes at the start of a text stream ( 0xEF, 0xBB, 0xBF ) that allows the reader to more reliably guess a file as being encoded in UTF-8. Normally, the BOM is used to signal the endianness of an encoding, but since endianness is irrelevant to UTF-8, the BOM is unnecessary.
