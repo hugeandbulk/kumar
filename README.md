@@ -1,5 +1,9 @@
 # kumar
 
+Is UTF-8 encoding?
+
+Encoding is the process of transforming a set of Unicode characters into a sequence of bytes. Decoding is the process of transforming a sequence of encoded bytes into a set of Unicode characters. UTF-8 is a Unicode encoding that represents each code point as a sequence of one to four bytes.
+
 How many types of encoding are there?
 
 The four primary types of encoding are visual, acoustic, elaborative, and semantic. Encoding of memories in the brain can be optimized in a variety of ways, including mnemonics, chunking, and state-dependent learning.
