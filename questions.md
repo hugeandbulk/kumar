@@ -40,6 +40,16 @@ What is CSS object-position?
 
 The object-position CSS property specifies the alignment of the selected replaced element's contents within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.
 
+How to remove an object in CSS?
+display: none; 'Unlike the visibility property, which leaves an element in normal document flow,display: none removes the element completely from the document. It does not take up any space, even though the HTML for it is still in the source code. This is because it is, indeed, removed from the document flow.
+
+
+
+
+
+
+
+
 
 
 
