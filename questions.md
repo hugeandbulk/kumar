@@ -24,7 +24,9 @@ Which languages require UTF-16?
 
 UTF-16 is used by systems such as the Microsoft Windows API, the Java programming language and JavaScript/ECMAScript. It is also sometimes used for plain text and word-processing data files on Microsoft Windows.
 
+Does UTF-16 support all languages?
 
+UTF(Unicode Transformation Format) is the standard for representing a great variety of characters from any language. To overcome the problem of ASCII which is only limited to 128 characters, UTF was developed to encode all characters for each and every language.
 
 
 
