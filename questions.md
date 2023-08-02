@@ -20,7 +20,9 @@ Which UTF is best?
 
 UTF-8 is the dominant encoding for the World Wide Web (and internet technologies), accounting for 97.9% of all web pages, over 99.0% of the top 10,000 pages, and up to 100% for many languages, as of 2023. Virtually all countries and languages have 95% or more use of UTF-8 encodings on the web.
 
+Which languages require UTF-16?
 
+UTF-16 is used by systems such as the Microsoft Windows API, the Java programming language and JavaScript/ECMAScript. It is also sometimes used for plain text and word-processing data files on Microsoft Windows.
 
 
 
