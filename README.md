@@ -1,5 +1,13 @@
 # kumar
 
+Which encoding is best?
+
+Binary Encoding: Initially, categories are encoded as Integer and then converted into binary code, then the digits from that binary string are placed into separate columns. This method is quite preferable when there is more categories.
+
+Does UTF-8 support all languages?
+
+UTF-8 supports all languages and alphabets, including Asian languages and their character depth. It is a widely supported and flexible character encoding.
+
 What is the full form of Unicode?
 
 The full form of Unicode is Universal Character Encoding Standard. Unicode is a character encoding standard that is designed to represent all characters used in written language worldwide.
