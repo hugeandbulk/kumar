@@ -12,7 +12,9 @@ Is UTF-16 better than UTF-8?
 
 UTF-8 encoding is preferable to UTF-16 on the majority of websites, because it uses less memory. Recall that UTF-8 encodes each ASCII character in just one byte. UTF-16 must encode these same characters in either two or four bytes.
 
+How to set UTF-8 encoding in shell script?
 
+export LANG=C. UTF-8 or export LANG=en_AU. UTF-8 etc.. You should then be able to write UTF-8 characters in the terminal, and include them in bash scripts.
 
 
 
